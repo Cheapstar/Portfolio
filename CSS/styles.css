@@ -1,0 +1,43 @@
+body{
+    font-family: 'Poppins',sans-serif;
+}
+
+
+.sidebar{
+    list-style: none;
+}
+.skill-heading{
+    padding-left:1.9rem;
+    
+}
+.custom-progress-bar{
+    width: 100%;
+}
+
+
+.custom-accordion-row{
+    width: 90%;
+}
+.accordion-button:not(.collapsed) {
+    background-color: white;
+    box-shadow: none;
+    
+  }
+
+a{
+    text-decoration: none;
+}  
+.navbar {
+    background-color: transparent; /* Set an initial transparent background */
+    transition: background-color 0.3s; /* Add a smooth transition effect */
+}
+
+
+@media (min-width:768px){
+    .custom-accordion{
+    width: 40%;
+    }
+    .custom-card{
+        width: 18rem; height: 23rem;
+    }
+}
